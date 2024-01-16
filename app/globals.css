@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+
+.effectFade{
+  width: 100%;
+  z-index: -1;
+  height: 500px;
+  background: linear-gradient(142deg, #ee3e09bb 0%, #ff562249 0%, rgba(197, 130, 85, 0.007) 34%);
+}
+
+
+.vector-img-1 {
+  transform: rotate(3deg);
+  left: -3%;
+  top: 42px;
+
+}
+
+.vector-img-2 {
+  transform: rotate(-4deg);
+  left: 28%;
+  top: 14px;
+  z-index: 1;
+}
+
+.vector-img-3 {
+  transform: rotate(16.4deg);
+  right: -10%;
+  bottom: -16px;
+}
+.serviceCardContainer::-webkit-scrollbar{
+  width: 0px;
+}
+.serviceCardContainer::-webkit-scrollbar-thumb{
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+
+.heromain-img{
+  animation: upDown 2.5s linear infinite;
+}
+
+@keyframes upDown {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
