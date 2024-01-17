@@ -5,6 +5,7 @@ async function fetchServices() {
   const data = await res.json();
   return data;
 }
+
 export async function ServicesSlider({ category, title }) {
   const data = await fetchServices();
   return (

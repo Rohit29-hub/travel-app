@@ -17,7 +17,7 @@ html {
 }
 
 
-.effectFade{
+.effectFade {
   width: 100%;
   z-index: -1;
   height: 500px;
@@ -44,27 +44,31 @@ html {
   right: -10%;
   bottom: -16px;
 }
-.serviceCardContainer::-webkit-scrollbar{
+
+.serviceCardContainer::-webkit-scrollbar {
   width: 0px;
 }
-.serviceCardContainer::-webkit-scrollbar-thumb{
+
+.serviceCardContainer::-webkit-scrollbar-thumb {
   width: 0px;
   height: 0px;
   display: none;
 }
 
-.heromain-img{
+.heromain-img {
   animation: upDown 2.5s linear infinite;
 }
 
 @keyframes upDown {
-  0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+
+  50% {
     transform: translateY(-10px);
   }
-  100%{
+
+  100% {
     transform: translateY(0px);
   }
 }
