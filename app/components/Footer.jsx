@@ -31,7 +31,7 @@ export function Footer(){
                         <ul className="text-[#191825] list-none flex flex-col gap-y-2 items-center">
                             <Link href={'/'} className="text-[#191825] opacity-50">My Travlog?</Link>
                             <Link href={'/'} className="text-[#191825] opacity-50">Partner with us</Link>
-                            <Link href={'/'} className="text-[#191825] opacity-50">FAQ's</Link>
+                            <Link href={'/'} className="text-[#191825] opacity-50">FAQ&#39;s</Link>
                             <Link href={'/'} className="text-[#191825] opacity-50">Blog</Link>
                         </ul>
                     </div>
