@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { Heading } from "./ComHeading/Heading";
 import { TravelPointCard } from "./ComHeading/TravelPointCard";
+import { Button } from "./ComHeading/Button";
 
 export function TravelPoint({ category, title }) {
   return (
-    <div className="w-full h-auto py-3 mt-12  relative flex gap-x-3 items-start">
+    <div className="w-full h-auto py-3 mt-2  relative flex gap-x-3 items-start">
       <div className="w-auto h-full relative flex-shrink-0">
         <Image
           src={"/travel-point-img.svg"}
@@ -13,6 +14,9 @@ export function TravelPoint({ category, title }) {
           alt=""
           priority={true}
         />
+        <div className="absolute right-24 top-[23%]">
+          <Button img={'/discount-btn-img.svg'} title={"Discounted Price"}/>
+        </div>
       </div>
       <div className="w-full h-full pt-10 pr-12 flex flex-col gap-y-6">
         <Heading category={category} title={title} />
