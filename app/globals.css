@@ -83,3 +83,9 @@ html {
     transform: translateY(0px);
   }
 }
+
+.testimonialsContainer{
+  background-image: url('../public/testmonials-img-back.svg');
+  background-position: 0px -220px;
+  background-size: cover;
+}
