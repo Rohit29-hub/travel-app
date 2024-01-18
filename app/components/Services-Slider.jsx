@@ -1,15 +1,12 @@
 import { ServicesCard } from "./ServicesCard/ServicesCard";
-import data from '@/data/ServicesData/services.json'
-
+import data from "@/data/ServicesData/services.json";
+import { Heading } from "./ComHeading/Heading";
 export function ServicesSlider({ category, title }) {
   return (
     <div className="w-full h-[23rem] mt-12 relative">
       <div className="w-[80%] h-full p-2 m-auto flex items-center justify-center">
         <div className="w-96 h-full flex-shrink-0 flex justify-center flex-col gap-y-1">
-          <span className="text-[13px] uppercase text-[#F85E9F]">
-            {category}
-          </span>
-          <h1 className="text-4xl font-bold">{title}</h1>
+          <Heading category={category} title={title} />
         </div>
 
         <div className="serviceCardContainer w-full h-full p-2 flex gap-x-6 overflow-auto ">

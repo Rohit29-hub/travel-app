@@ -16,6 +16,16 @@ html {
   position: relative;
 }
 
+.travelPoint-box{
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+  z-index: 1054;
+}
+.travelPoint-box:hover{
+  transform: translateY(-5px);
+  border-bottom: 2px solid #FF5722;
+}
+
 .effectFade {
   width: 100%;
   z-index: -1;

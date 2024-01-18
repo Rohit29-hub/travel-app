@@ -1,7 +1,6 @@
 'use client'
 import { Error } from "./components/Layout/ErrorLayout"
 export default function ErrorBoundry({error,reset}){
-    console.log(error);
     return (
         <Error>
             <h1 className="text-3xl font-bold">Error Message</h1>
