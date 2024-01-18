@@ -45,11 +45,11 @@ html {
   bottom: -16px;
 }
 
-.serviceCardContainer::-webkit-scrollbar {
+.serviceCardContainer::-webkit-scrollbar,.destinationScroller::-webkit-scrollbar {
   width: 0px;
 }
 
-.serviceCardContainer::-webkit-scrollbar-thumb {
+.serviceCardContainer::-webkit-scrollbar-thumb,.destinationScroller::-webkit-scrollbar-thumb {
   width: 0px;
   height: 0px;
   display: none;
@@ -58,6 +58,8 @@ html {
 .heromain-img {
   animation: upDown 2.5s linear infinite;
 }
+
+
 
 @keyframes upDown {
   0% {

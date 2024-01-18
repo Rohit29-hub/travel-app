@@ -12,7 +12,7 @@ export function Navbar() {
           width={120}
           height={120}
           alt="logo-web.png"
-          priority
+          priority={true}
         />
         </div>
         <div className="h-full w-auto flex-shrink-0">

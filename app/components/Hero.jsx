@@ -42,7 +42,7 @@ export function Hero() {
             alt=""
             height={550}
             width={550}
-            priority
+            priority={true}
           />
           <div className="w-full h-64 absolute top-0 ">
             <div className="w-full h-full flex justify-between relative">
@@ -52,7 +52,7 @@ export function Hero() {
                 alt=""
                 width={200}
                 height={200}
-                priority
+                priority={true}
               />
               <Image
                 className="vector-img-2 absolute flex-shrink-0"
@@ -60,7 +60,7 @@ export function Hero() {
                 alt=""
                 width={300}
                 height={300}
-                priority
+                priority={true}
               />
               <Image
                 className="vector-img-3 absolute flex-shrink-0"
@@ -68,14 +68,14 @@ export function Hero() {
                 alt=""
                 width={130}
                 height={130}
-                priority
+                priority={true}
               />
               <span className="absolute left-[-2.25rem] top-[19.6rem]">
-                  <Image className="heromain-img" src={'/social-hero-icon.svg'} alt="" width={100} height={100} priority/>
+                  <Image className="heromain-img" src={'/social-hero-icon.svg'} alt="" width={100} height={100} priority={true}/>
               </span>
 
               <span className="absolute left-[17.5rem] top-[34rem]"> 
-                  <Image className="heromain-img" src={'/social-hero-icon2.svg'} alt="" width={100} height={100} priority/>
+                  <Image className="heromain-img" src={'/social-hero-icon2.svg'} alt="" width={100} height={100} priority={true}/>
               </span>
               
             </div>
@@ -88,7 +88,7 @@ export function Hero() {
                   alt=""
                   width={210}
                   height={200}
-                  priority
+                  priority={true}
                 />
               </div>
               <div className="absolute top-[23rem]">
@@ -97,12 +97,12 @@ export function Hero() {
                   alt=""
                   width={210}
                   height={200}
-                  priority
+                  priority={true}
                 />
               </div>
             </div>
             <div className="w-full h-full relative">
-              <Image className=" absolute top-[13rem] left-[15rem]" src={'/main-hero-img3.svg'} alt="" width={230} height={400} priority/>
+              <Image className=" absolute top-[13rem] left-[15rem]" src={'/main-hero-img3.svg'} alt="" width={230} height={400} priority={true}/>
             </div>
           </div>
         </div>
