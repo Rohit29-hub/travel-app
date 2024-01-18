@@ -18,7 +18,7 @@ export function TravelPoint({ category, title }) {
           <Button img={'/discount-btn-img.svg'} title={"Discounted Price"}/>
         </div>
       </div>
-      <div className="w-full h-full pt-10 pr-12 flex flex-col gap-y-6">
+      <div className="w-full h-full pt-10 pr-12 flex flex-col gap-y-6 relative">
         <Heading category={category} title={title} />
         <p className="text-[#191825] opacity-50 pt-2 pr-8">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
@@ -38,6 +38,9 @@ export function TravelPoint({ category, title }) {
             {" "}
             <TravelPointCard number={"2k+"} name={"Happy Customer"} />
           </div>
+        </div>
+        <div className=" absolute top-56 right-[0rem]">
+          <Image src={'/travel-point.svg'} width={160} height={160} priority={true} alt=""/>
         </div>
       </div>
     </div>

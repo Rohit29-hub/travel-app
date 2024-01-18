@@ -45,7 +45,7 @@ export function Testimonials({ category, title }) {
                 ))}
             </div>
             <div className="w-full flex items-center justify-center p-2 gap-x-3">
-                <span className=" inline-block w-2 h-2 bg-black rounded-[100%] outline-1 outline outline-[#F85E9F] outline-offset-2"></span>
+                <span className=" inline-block w-2 h-2 rounded-[100%] bg-[#F85E9F]"></span>
                 <span className=" inline-block w-2 h-2 bg-black rounded-[100%]"></span>
                 <span className=" inline-block w-2 h-2 bg-black rounded-[100%]"></span>
             </div>

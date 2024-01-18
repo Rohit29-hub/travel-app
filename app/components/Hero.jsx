@@ -2,6 +2,7 @@ import Image from "next/image";
 import { HeroButton } from "./HeroButton/HeroButton";
 import { HeroButton2 } from "./HeroButton/HeroButton2";
 import { NavButton } from "./NavButton/NavButton";
+import { Button } from "./ComHeading/Button";
 export function Hero() {
   return (
     <div className="w-full h-[100vh] p-4">
@@ -30,7 +31,7 @@ export function Hero() {
               href={"/"}
               title={"Get started"}
               background={"#5D50C6"}
-              color={"#fff"}
+              color={"white"}
             />
             <HeroButton2  title={"Watch Demo"} href={"https://www.youtube.com"}/>
           </div>
@@ -44,6 +45,9 @@ export function Hero() {
             width={550}
             priority={true}
           />
+          <div className=" absolute right-[-2rem] bottom-32 z-20">
+            <Button img={'/location.svg'} title={"Top Places"}/>
+          </div>
           <div className="w-full h-64 absolute top-0 ">
             <div className="w-full h-full flex justify-between relative">
               <Image

@@ -2,6 +2,7 @@ import { BrandBanner } from "./components/Brand-Banner";
 import { DestinationSlider } from "./components/Destination-Slider";
 import { Hero } from "./components/Hero";
 import { KeyFeatures } from "./components/KeyFeatures";
+import { Newsletter } from "./components/Newsletter";
 import { ServicesSlider } from "./components/Services-Slider";
 import { Testimonials } from "./components/Testimonials";
 import { TravelPoint } from "./components/TravelPoint";
@@ -17,6 +18,7 @@ export default function Home(){
       <TravelPoint category={"Travel Point"} title={"We helping you find your dream location"}/>
       <KeyFeatures category={"Key features"} title={"We offer best services"}/>
       <Testimonials category={"Testimonials"} title={"Trust our clients"}/>
+      <Newsletter category={"subscribe to our newsletter"} title={"Prepare yourself & let’s explore the beauty of the world"}/>      
     </>
   );
 }

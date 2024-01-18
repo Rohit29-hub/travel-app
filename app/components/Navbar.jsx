@@ -32,8 +32,8 @@ export function Navbar() {
           </ul>
         </div>
         <div className="w-auto h-full flex-shrink-0 flex items-center gap-x-4">
-            <NavButton href={'/login'} title={'Log In'} background={'#fff'} color={"#000"}/>
-            <NavButton href={'/signup'} title={'Sign Up'} background={'#5D50C6'} color={"#fff"}/>
+            <NavButton href={'/login'} title={'Log In'} background={'#fff'} color={"black"}/>
+            <NavButton href={'/signup'} title={'Sign Up'} background={'#5D50C6'} color={"white"}/>
         </div>
       </div>
     </div>
