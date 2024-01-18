@@ -1,14 +1,8 @@
-
+import data from '@/data/DestinationData/destination.json'
 import { DestinationCard } from "./DestinationsCard/DestinationCard";
 import { DestinationButton } from "./DestinationsCard/DestinationButton";
 
-async function getData() {
-  const res = await fetch("http://localhost:3000/api/destinations");
-  return await res.json();
-}
-
-export async function DestinationSlider({ category, title }) {
-  const data = await getData();
+export function DestinationSlider({ category, title }) {
   return (
     <div className="w-full h-screen  mt-12 p-2">
       <div className="w-[80%] m-auto h-full flex flex-col gap-y-10">
