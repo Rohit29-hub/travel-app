@@ -6,6 +6,7 @@ async function getData() {
   const res = await fetch("http://localhost:3000/api/destinations");
   return await res.json();
 }
+
 export async function DestinationSlider({ category, title }) {
   const data = await getData();
   return (

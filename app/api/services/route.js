@@ -23,5 +23,7 @@ const servicesData = [
 ];
 
 export async function GET(request) {
+  setTimeout(()=>{
     return Response.json(servicesData);
+  },4000)
 }
