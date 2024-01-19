@@ -1,6 +1,6 @@
-import { ServicesCard } from "./ServicesCard/ServicesCard";
+import { ServicesCard } from "../ui/ServicesCard";
 import data from "@/data/ServicesData/services.json";
-import { Heading } from "./ComHeading/Heading";
+import { Heading } from "../ui/Heading";
 export function ServicesSlider({ category, title }) {
   return (
     <div className="w-full h-[23rem] mt-12 relative">

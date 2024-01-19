@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Heading } from "./ComHeading/Heading";
-import { TravelPointCard } from "./ComHeading/TravelPointCard";
-import { Button } from "./ComHeading/Button";
+import { Heading } from "../ui/Heading";
+import { TravelPointCard } from "../ui/TravelPointCard";
+import { Button } from "../ui/Button";
 
 export function TravelPoint({ category, title }) {
   return (

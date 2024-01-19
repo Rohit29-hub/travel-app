@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-export function DestinationButton({ icon, styling }) {
+export function ArrowButton({ icon, styling }) {
   return (
     <button className={`${styling}`}>
       <Image

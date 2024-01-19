@@ -1,7 +1,7 @@
 import data from '@/data/DestinationData/destination.json'
-import { DestinationCard } from "./DestinationsCard/DestinationCard";
-import { DestinationButton } from "./DestinationsCard/DestinationButton";
-import { Heading } from './ComHeading/Heading';
+import { DestinationCard } from "../ui/DestinationCard";
+import { ArrowButton } from "../ui/ArrowButton";
+import { Heading } from '../ui/Heading';
 import Image from 'next/image';
 export function DestinationSlider({ category, title }) {
   return (
@@ -13,8 +13,8 @@ export function DestinationSlider({ category, title }) {
             <Heading category={category} title={title}/>
           </div>
           <div className="flex items-center gap-x-2">
-            <DestinationButton icon={"/left-arrow-icon.svg"} styling={"w-12 h-12 rounded-[100%] bg-white border border-solid flex items-center justify-center"}/>
-            <DestinationButton icon={"/right-arrow-icon.svg"} styling={"w-12 h-12 rounded-[100%] bg-violet-500 flex items-center justify-center"}/>
+            <ArrowButton icon={"/left-arrow-icon.svg"} styling={"w-12 h-12 rounded-[100%] bg-white border border-solid flex items-center justify-center"}/>
+            <ArrowButton icon={"/right-arrow-icon.svg"} styling={"w-12 h-12 rounded-[100%] bg-violet-500 flex items-center justify-center"}/>
           </div>
         </div>
         <div className="destinationScroller h-auto pb-10 pl-4 bg-white w-full flex gap-x-10 justify-center overflow-scroll relative">

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { HeroButton } from "./HeroButton/HeroButton";
-import { HeroButton2 } from "./HeroButton/HeroButton2";
-import { NavButton } from "./NavButton/NavButton";
-import { Button } from "./ComHeading/Button";
+import { HeroButton } from "../ui/HeroButton";
+import { HeroButton2 } from "../ui/HeroButton2";
+import { NavButton } from "../ui/NavButton";
+import { Button } from "../ui/Button";
 export function Hero() {
   return (
     <div className="w-full h-[100vh] p-4">
@@ -44,6 +44,7 @@ export function Hero() {
             height={550}
             width={550}
             priority={true}
+            
           />
           <div className=" absolute right-[-2rem] bottom-32 z-20">
             <Button img={'/location.svg'} title={"Top Places"}/>
@@ -57,6 +58,7 @@ export function Hero() {
                 width={200}
                 height={200}
                 priority={true}
+                
               />
               <Image
                 className="vector-img-2 absolute flex-shrink-0"
@@ -65,6 +67,7 @@ export function Hero() {
                 width={300}
                 height={300}
                 priority={true}
+                
               />
               <Image
                 className="vector-img-3 absolute flex-shrink-0"
@@ -73,13 +76,14 @@ export function Hero() {
                 width={130}
                 height={130}
                 priority={true}
+                
               />
               <span className="absolute left-[-2.25rem] top-[19.6rem]">
-                  <Image className="heromain-img" src={'/social-hero-icon.svg'} alt="" width={100} height={100} priority={true}/>
+                  <Image className="heromain-img" src={'/social-hero-icon.svg'} alt="" width={100} height={100} priority={true} />
               </span>
 
               <span className="absolute left-[17.5rem] top-[34rem]"> 
-                  <Image className="heromain-img" src={'/social-hero-icon2.svg'} alt="" width={100} height={100} priority={true}/>
+                  <Image className="heromain-img" src={'/social-hero-icon2.svg'} alt="" width={100} height={100} priority={true} />
               </span>
               
             </div>
@@ -93,6 +97,7 @@ export function Hero() {
                   width={210}
                   height={200}
                   priority={true}
+                  
                 />
               </div>
               <div className="absolute top-[23rem]">
@@ -102,11 +107,12 @@ export function Hero() {
                   width={210}
                   height={200}
                   priority={true}
+                  
                 />
               </div>
             </div>
             <div className="w-full h-full relative">
-              <Image className=" absolute top-[13rem] left-[15rem]" src={'/main-hero-img3.svg'} alt="" width={230} height={400} priority={true}/>
+              <Image className=" absolute top-[13rem] left-[15rem]" src={'/main-hero-img3.svg'} alt="" width={230} height={400} priority={true} />
             </div>
           </div>
         </div>

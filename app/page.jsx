@@ -1,11 +1,11 @@
-import { BrandBanner } from "./components/Brand-Banner";
-import { DestinationSlider } from "./components/Destination-Slider";
-import { Hero } from "./components/Hero";
-import { KeyFeatures } from "./components/KeyFeatures";
-import { Newsletter } from "./components/Newsletter";
-import { ServicesSlider } from "./components/Services-Slider";
-import { Testimonials } from "./components/Testimonials";
-import { TravelPoint } from "./components/TravelPoint";
+import { BrandBanner } from "@/components/page/Brand-Banner";
+import { DestinationSlider } from "@/components/data/Destination-Slider";
+import { Hero } from "@/components/page/Hero";
+import { KeyFeatures } from "@/components/page/KeyFeatures";
+import { Newsletter } from "@/components/layout/Newsletter";
+import { ServicesSlider } from "@/components/page/Services-Slider";
+import { Testimonials } from "@/components/data/Testimonials";
+import { TravelPoint } from "@/components/page/TravelPoint";
 
 export default function Home(){
   return (

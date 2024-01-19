@@ -1,6 +1,6 @@
-import { Heading } from "./ComHeading/Heading";
-import { DestinationButton } from "./DestinationsCard/DestinationButton";
-import { TestimonialsCard } from "./TestimonialsCard/TestimonialsCard";
+import { Heading } from "../ui/Heading";
+import { ArrowButton } from "../ui/ArrowButton";
+import { TestimonialsCard } from "../ui/TestimonialsCard";
 
 export function Testimonials({ category, title }) {
   const user = [
@@ -18,7 +18,7 @@ export function Testimonials({ category, title }) {
       <div className=" w-[80%]  m-auto h-full p-12 flex items-center justify-center">
         <div className="w-full h-full flex justify-center ">
           <div className="flex items-center h-full w-auto flex-shrink-0">
-            <DestinationButton
+            <ArrowButton
               icon={"/left-arrow-icon.svg"}
               styling={
                 "w-16 h-16 rounded-[100%] bg-white border border-solid flex items-center justify-center"
@@ -51,7 +51,7 @@ export function Testimonials({ category, title }) {
             </div>
           </div>
           <div className="flex items-center h-full w-auto flex-shrink-0">
-            <DestinationButton
+            <ArrowButton
               icon={"/right-arrow-icon.svg"}
               styling={
                 "w-16 h-16 rounded-[100%] bg-violet-500 flex items-center justify-center"

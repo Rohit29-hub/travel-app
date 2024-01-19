@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Heading } from "./ComHeading/Heading";
-import { Button } from "./ComHeading/Button";
+import { Heading } from "../ui/Heading";
+import { Button } from "../ui/Button";
 
 export function KeyFeatures({ category, title }) {
   return (

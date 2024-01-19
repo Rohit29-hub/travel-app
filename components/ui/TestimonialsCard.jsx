@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {getStar} from '@/app/lib/getStar'
+import {getStar} from '@/components/utils/getStar'
 export function TestimonialsCard({
     image,
     fullname,

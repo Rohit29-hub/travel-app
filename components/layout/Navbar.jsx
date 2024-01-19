@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {NavButton} from "./NavButton/NavButton";
+import {NavButton} from "../ui/NavButton";
 
 export function Navbar() {
   return (
