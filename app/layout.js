@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Newsletter } from "@/components/layout/Newsletter";
 import "./globals.css";
 
 import { Navbar } from "@/components/layout/Navbar";
@@ -18,6 +19,7 @@ export default function RootLayout({ children, modals }) {
         <Navbar />
         {modals}
         {children}
+        <Newsletter category={"subscribe to our newsletter"} title={"Prepare yourself & let’s explore the beauty of the world"}/> 
         <Footer />
       </body>
     </html>

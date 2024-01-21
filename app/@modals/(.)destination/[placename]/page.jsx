@@ -1,9 +1,20 @@
 import { Modal } from "@/components/modals/Modal";
-
-export default function PlaceDetails({ params: { placename } }) {
+import Image from "next/image";
+import { getSinglePlace } from "@/app/utils/getSinglePlace";
+export default async function PlaceDetails({ params: { placename } }) {
+  const placeDetails = await getSinglePlace(placename);
   return (
     <Modal>
-      <h1 className="text-3xl font-bold text-white">{decodeURI(placename)}</h1>
+      <div className="w-full h-full">
+        <Image
+          src={`/${placeDetails.image}`}
+          width={300}
+          height={300}
+          alt={placeDetails.country}
+          priority={true}
+        />
+        <h1 className="text-2xl font-medium py-2">{placeDetails.title}</h1>
+      </div>
     </Modal>
   );
 }

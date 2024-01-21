@@ -18,7 +18,7 @@ export function DestinationCard({
       <div className="h-64 w-full">
         <Image
           className="w-full h-full object-cover hover:scale-105 transition-all ease-in duration-200"
-          src={image}
+          src={`/${image}`}
           width={300}
           height={250}
           alt=""

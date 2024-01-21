@@ -1,29 +1,38 @@
 [
     {
         "id" : 1,
-        "title" : "Paradise Beach, Bantayan Island",
+        "title" : "Red Fort",
         "price" : "550.16",
-        "city"  : "Rome",
-        "country"  : "Italy",
-        "image" : "https://images.unsplash.com/photo-1463468217891-c11f48e6310a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "city"  : "Delhi",
+        "country"  : "India",
+        "image" : "red-fort.jpeg",
         "rating"  : "4.8"
     },
     {
         "id" : 2,
-        "title" : "Ocean with full of Colors",
-        "price" : "20.99",
-        "city"  : "",
-        "country"  : "Maldives",
-        "image" : "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title" : "Taj Mahal",
+        "price" : "120.99",
+        "city"  : "Agra - UP",
+        "country"  : "India",
+        "image" : "taj-mahal.jpeg",
         "rating"  : "4.5"
     },
     {
         "id" : 3,
-        "title" : "Mountain View, Above the cloud",
+        "title" : "India Gate",
         "price" : "150.99",
-        "city"  : "",
-        "image" : "https://images.unsplash.com/photo-1620370219275-65b5d008f41a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "country"  : "United Arab Emeries",
-        "rating"  : "5.0"
+        "city"  : "Delhi",
+        "image" : "india-gate.jpeg",
+        "country"  : "India",
+        "rating"  : "4.0"
+    },
+    {
+        "id" : 4,
+        "title" : "Qutub minar",
+        "price" : "90.99",
+        "city"  : "Delhi",
+        "image" : "qutub-minar.jpeg",
+        "country"  : "India",
+        "rating"  : "3.0"
     }
 ]

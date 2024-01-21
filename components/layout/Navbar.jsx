@@ -21,7 +21,7 @@ export function Navbar() {
               <Link href={'/'} shallow className="">Home</Link>
             </li>
             <li className="px-4 text-[#191825] opacity-50 font-medium p-2 transition-all duration-150 ease-in hover:bg-gray-100 rounded-xl">
-              <Link href={'/'} shallow className="">Discover</Link>
+              <Link href={'/destination'} shallow className="">All Destinations</Link>
             </li>
             <li className="px-4 text-[#191825] opacity-50 font-medium p-2 transition-all duration-150 ease-in hover:bg-gray-100 rounded-xl">
               <Link href={'/'} shallow className="">Special Deals</Link>

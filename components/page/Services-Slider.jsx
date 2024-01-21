@@ -1,7 +1,7 @@
 import { ServicesCard } from "../ui/ServicesCard";
-import data from "@/data/ServicesData/services.json";
 import { Heading } from "../ui/Heading";
-export function ServicesSlider({ category, title }) {
+export async function ServicesSlider({ category, title }) {
+  const data = await getServices();
   return (
     <div className="w-full h-[23rem] mt-12 relative">
       <div className="w-[80%] h-full p-2 m-auto flex items-center justify-center">
@@ -24,4 +24,14 @@ export function ServicesSlider({ category, title }) {
       </div>
     </div>
   );
+}
+
+const getServices = async () => {
+  try{
+    const response = await fetch('http://localhost:3000/api/services');
+    const data = await response.json();
+    return data.data || [];
+  }catch(err){
+    throw err
+  }
 }
