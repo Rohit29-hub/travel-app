@@ -12,7 +12,8 @@
 body,
 html {
   width: 100%;
-  max-width: 1990px;
+  max-width: 1800px;
+  margin: auto;
   height: auto;
   position: relative;
 }
